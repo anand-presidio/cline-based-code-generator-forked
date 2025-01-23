@@ -75,7 +75,7 @@ jobs:
           
           # Merge those changes to the current repo
           echo "Merging changes from current:$CI_COMMIT_REF_NAME to the gitlab:$BRANCH_NAME"
-          if ! git merge origin/$CI_COMMIT_REF_NAME --allow-unrelated-histories --strategy-option=theirs; then
+          if ! git merge origin/$CI_COMMIT_REF_NAME --no-edit --allow-unrelated-histories --strategy-option=theirs; then
             echo "Failed to merge GitLab branch"
             exit 1
           fi
