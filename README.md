@@ -14,7 +14,7 @@
 </div>
 <br />  
 
-# 🚀 Code Generator
+# 🚀 Code Generator Test
 
 **HAI Code Generator** is a cutting-edge tool designed to simplify and automate task execution while enhancing code generation workflows. Leveraging Specif AI, it streamlines processes like task execution, file identification, and code documentation through intelligent automation and AI-driven capabilities.
 
